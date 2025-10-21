@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'sriracha' ;
-    src: url(fonts/Sriracha-Regular.ttf) format('truetype');
-
     font-family:'passionOne-bold' ;
     src: url(fonts/PassionOne-Bold.ttf) format('truetype');
 }
+
+
+
 
 *{  
     margin: 0;
@@ -13,10 +13,12 @@
     box-sizing: border-box;  
 }
 
-body{
+html, body{
     background-color: white;
-    font-size: 2em;
-    min-width: 100px;
+    font-size: 1.3em;
+    font-family: var(--fonte1);
+
+
 }
 
 header{ 
@@ -24,28 +26,75 @@ header{
     color: white;
     text-align: center;
     font-family: 'passionOne-bold', sans-serif;
-    font-size: 3em;
+    font-size: 1.4em;
     margin: 0;
-    padding: 0;
+
 }
 
-pre{
-    font-family: "sriracha", cursive;
+header > h1{
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
 }
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+section{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    margin-left: 30px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    line-height: 2em;
+}
+
 
 section#img1{
     color: white;
     background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    padding-left: 30px;
+    background-size: cover;
+
 }
 
 section#img2{
     color: white;
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    max-width: 100%;
+    padding-left: 30px;
+    box-shadow: 20px;
 }
+
+section.box > p{
+    background-color: rgba(37, 37, 37, 0.479);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section.box{
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 13px 0px rgba(0, 0, 0, 0.205);
+    color: white;
+    max-width: 100%;
+    margin: 0px;
+}
+
 
 a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
+
 }
 
 a:hover{
@@ -55,6 +104,8 @@ a:hover{
 footer{
     background-color: black;
     color: white;
+    font-size: 19px;
     text-align: center;
     padding: 10px;
+    margin: 0px;
 }
