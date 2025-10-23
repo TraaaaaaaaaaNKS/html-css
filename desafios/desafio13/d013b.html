@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+</head>
+<style>
+    table {
+        text-align: center;
+        width: 400px;
+        height: 300px;
+    }
+
+    tr {
+        border: 1px solid  black;
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid black;
+
+    }
+
+    .extremos {
+        background-color:rgba(0, 255, 170, 0.219);
+        
+    }
+
+    .extremos:hover {
+        background-color: rgba(0, 255, 255, 0.877);
+        transition-delay: 0.1s;
+    }
+
+    .centrais {
+        background-color: rgb(112, 112, 238);
+    }
+
+    .centrais:hover {
+        background-color: purple;
+        transition-delay: 0.1s;
+    
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" class="extremos">A</td>
+            <td rowspan="5" class="extremos">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="extremos">C</td>
+            <td class="centrais">D</td>
+            <td class="centrais">E</td>
+            <td class="centrais">F</td>
+        </tr>
+        <tr>
+            <td class="centrais">G</td>
+            <td class="centrais">H</td>
+            <td class="centrais">I</td>
+        </tr>
+        <tr>
+            <td class="centrais">J</td>
+            <td class="centrais">K</td>
+            <td class="centrais">L</td>
+        </tr>
+        <tr>
+            
+            <td colspan="3" class="extremos">M</td>
+
+        </tr>
+    </table>
+</body>
+</html>
