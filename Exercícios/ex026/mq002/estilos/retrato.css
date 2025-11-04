@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Tela na vertical */
+
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
