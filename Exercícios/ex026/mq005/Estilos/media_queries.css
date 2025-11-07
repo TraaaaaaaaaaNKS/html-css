@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 599px) {
+    body, html {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        
+    }  
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px)  {
+    body, html {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body, html {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body, html {
+        width: 100vw;
+        height: 100vh;
+    }
+}
