@@ -18,6 +18,7 @@ menu {
 }
 
 article::after {
+    color: red;
     content: 'Esse artigo foi impresso através do site www.cursoemvideo.com';
     font-weight: bolder;
 }
