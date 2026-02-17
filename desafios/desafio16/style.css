@@ -12,14 +12,14 @@ body {
     background-color: rgb(53, 54, 122);
     display: flex;
     padding: 10px;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     
 }
 
 h1 {
-    flex-basis: 2050px;
+    flex-basis: 200px;
 }
 
 

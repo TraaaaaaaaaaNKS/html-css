@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+nav.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.container > .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    flex-basis: 0px;
+}
+
+a {
+    width: 90vw;
+    text-align: center;
+}
+}
