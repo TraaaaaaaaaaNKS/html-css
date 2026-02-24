@@ -3,24 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Conteúdo Flex</title>
 </head>
 <body>
-    <header>
+    <header class="normal">
         <h1>Exemplo de conteúdo flexível</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione necessitatibus harum quis sapiente praesentium tempora rerum laudantium possimus alias sint aliquid, soluta placeat cum esse impedit est ab, at omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, quos magni fuga enim aliquam magnam beatae, rem suscipit perferendis accusamus cum expedita. Incidunt unde aliquid possimus nostrum corporis earum. Aliquid!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates amet in corrupti quae, ducimus ut iste cupiditate aperiam. Placeat vel hic, doloremque a quaerat ipsum sit at laborum illum odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo dolorum similique corrupti cumque modi ullam dignissimos? Tempora dolor sint quisquam libero maiores vitae voluptas, doloribus nulla labore ullam voluptates.</p>
     </header>
     <main>
-        <div>
-            <h2>Elemento Media->Text</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit perspiciatis, quis quisquam placeat reprehenderit odio. Placeat illum accusamus omnis, nisi ad hic voluptas provident similique atque blanditiis culpa corporis temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatum beatae repellendus nobis officia asperiores eos at. Sed fuga maiores ducimus, cumque dolorum adipisci? Quasi odit sit at voluptates a.</p>
-            <img src="desafio17.png" alt="foto" width="350px">
-
-            <h2>Elemento text->Media</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil expedita dicta perspiciatis sint vero consequuntur unde voluptatibus amet soluta, sit magni adipisci pariatur quibusdam recusandae illum quaerat iusto commodi officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolores. Totam obcaecati quis aperiam beatae dignissimos ab, quasi ipsum in quae mollitia, nemo iure hic. Laborum modi provident nisi hic?</p>
-            <iframe src="https://player.vimeo.com/video/443887865?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0"></iframe>
-        </div>
-
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h2>Media -> Text</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed nihil deleniti sint animi et esse veritatis iste atque labore nulla officia soluta eveniet cum vel eligendi officiis, explicabo error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta assumenda quaerat natus repellat asperiores, similique error quam numquam commodi, earum laboriosam, illo quis minus dicta tenetur unde! Consectetur, animi totam!</p>
+                </div>
+                <div class="media">
+                    <img src="desafio17.png" alt="Criando site" width="600px">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h2>Text -> Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ex deleniti, cum provident et nostrum quibusdam ipsa atque ad nam tempore officia, animi eligendi nobis exercitationem. Rerum mollitia voluptatibus animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam mollitia facilis aliquam dolores est distinctio obcaecati, minus dignissimos ea maiores rem libero repudiandae, non vitae earum similique labore architecto minima.</p>
+                </div>
+                <div class="media">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/tm_f7OBOdv0?si=zsEZ_NKsO05ggogv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section> <!-- Fim na seção Flex-Content -->
+        <section class="normal">
+            <h2>Conteúdo normal</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestias vero velit, expedita beatae aliquam odio suscipit alias hic magnam maxime, tenetur repudiandae distinctio eaque repellat fuga culpa facilis consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere doloribus harum facilis dolorum eos repellendus provident fuga totam ullam, enim porro veniam, quam odio dolorem ratione tempore ab dolores sequi.</p>
+        </section>
     </main>
 </body>
 </html>
